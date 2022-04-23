@@ -3,8 +3,7 @@
 echo "install tools by apt"
 
 apt update
-apt install -y \ 
-    bash-completion
+apt install -y bash-completion
 
 echo "auto remove and clean apt cache"
 apt autoremove -y
