@@ -14,5 +14,5 @@ source /usr/local/share/nvm/nvm.sh
 
 nvm install ${NODE_VERSION}
 
-npm install -g commitizen cz-conventional-changelog
+npm install -g commitizen cz-conventional-changelog  conventional-changelog-cli
 echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
